@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Edit Dish";
+}
+
+@model NewDish
+
+<div id="container">
+    <div class="row">
+        <h2>Edit Dish!</h2>
+    </div>
+    <div class="link col-md-1">
+        <p><a href="/">Home</a></p>
+    </div>
+    <div id="row">
+        <div id="form" class="mx-auto">
+            <form asp-action="Result" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <input type="text" asp-for="Name" id="" class="form-control">
+                    <span style="color:Red;" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Dish"></label>
+                    <input type="text" asp-for="Dish" id="" class="form-control">
+                    <span style="color:Red;" asp-validation-for="Dish"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Calories"></label>
+                    <input type="text" asp-for="Calories" id="" class="form-control">
+                    <span style="color:Red;" asp-validation-for="Calories"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Tastiness"></label>
+                    <select asp-for="Tastiness" id="" class="form-control">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="Tastiness"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Comments"></label>
+                    <textarea asp-for="Comments" id="" class="form-control" cols="25" rows="1"></textarea>
+                    <span style="color:Red;" asp-validation-for="Comments"></span>
+                    <br>
+                    <button type="submit">Add Dish</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>

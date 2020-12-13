@@ -26,5 +26,9 @@ namespace CRUDelicious.Models
 
         [Display(Name="Comments: ")]
         public string Comments { get; set; }
+
+        public DateTime CreatedAt { get; set; }
+
+        public DateTime UpdatedAt { get; set; }
     }
 }

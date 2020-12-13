@@ -60,3 +60,4 @@
 /Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/obj/Debug/netcoreapp3.1/staticwebassets/CRUDelicious.StaticWebAssets.Manifest.cache
 /Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/obj/Debug/netcoreapp3.1/staticwebassets/CRUDelicious.StaticWebAssets.xml
 /Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/obj/Debug/netcoreapp3.1/CRUDelicious.genruntimeconfig.cache
+/Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/obj/Debug/netcoreapp3.1/Razor/Views/Home/Item.cshtml.g.cs

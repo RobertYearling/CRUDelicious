@@ -24,7 +24,14 @@ namespace CRUDelicious.Controllers
             return View();
         }
 
+        [HttpGet("new")]
         public IActionResult New()
+        {
+            return View();
+        }
+
+        [HttpGet("edit")]
+        public IActionResult Edit()
         {
             return View();
         }
