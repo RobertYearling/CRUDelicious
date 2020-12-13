@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using CRUDelicious.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace CRUDelicious.Controllers
 {
@@ -19,6 +20,11 @@ namespace CRUDelicious.Controllers
         }
 
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult New()
         {
             return View();
         }
