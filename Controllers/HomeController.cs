@@ -29,6 +29,7 @@ namespace CRUDelicious.Controllers
         [HttpGet("")]
         public IActionResult Index()
         {
+            List<Dish> AllDishes = _context.Dishes.ToList();
             return View();
         }
 

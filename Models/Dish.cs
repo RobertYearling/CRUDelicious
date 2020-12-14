@@ -9,7 +9,7 @@ namespace CRUDelicious.Models
 
         [Required]
         [Display(Name="Chef Name: ")]
-        public string Name { get; set; }
+        public string ChefName { get; set; }
 
         [Required]
         [Display(Name="Name of Dish: ")]
