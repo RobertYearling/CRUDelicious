@@ -2,7 +2,7 @@
     ViewData["Title"] = "Edit Dish";
 }
 
-@model NewDish
+@model Dish
 
 <div id="container">
     <div class="row">
@@ -20,9 +20,9 @@
                     <span style="color:Red;" asp-validation-for="Name"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Dish"></label>
-                    <input type="text" asp-for="Dish" id="" class="form-control">
-                    <span style="color:Red;" asp-validation-for="Dish"></span>
+                    <label asp-for="DishName"></label>
+                    <input type="text" asp-for="DishName" id="" class="form-control">
+                    <span style="color:Red;" asp-validation-for="DishName"></span>
                 </div>
                 <div class="form-group">
                     <label asp-for="Calories"></label>

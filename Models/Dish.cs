@@ -1,18 +1,19 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-
 namespace CRUDelicious.Models
 {
-    public class NewDish
+    public class Dish
     {
+        [Key]
+
         [Required]
         [Display(Name="Chef Name: ")]
         public string Name { get; set; }
 
         [Required]
         [Display(Name="Name of Dish: ")]
-        public string Dish { get; set; }
+        public string DishName { get; set; }
 
         [Required]
         [Range(1,15000)]
@@ -27,8 +28,8 @@ namespace CRUDelicious.Models
         [Display(Name="Comments: ")]
         public string Comments { get; set; }
 
-        public DateTime CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        public DateTime UpdatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; } = DateTime.Now;
     }
 }

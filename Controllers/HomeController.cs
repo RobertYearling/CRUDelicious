@@ -19,6 +19,14 @@ namespace CRUDelicious.Controllers
             _logger = logger;
         }
 
+        private MyContext _context { get; set; } 
+
+        public HomeController(MyContext context)
+        {
+            _context = context;
+        }
+
+        [HttpGet("")]
         public IActionResult Index()
         {
             return View();
