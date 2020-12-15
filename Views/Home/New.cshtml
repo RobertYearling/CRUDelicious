@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "New Dish";
 }
-
+@using CRUDelicious.Models
 @model Dish
 
 <div id="container">
@@ -13,7 +13,7 @@
     </div>
     <div id="row">
         <div id="form" class="mx-auto">
-            <form asp-action="Result" asp-controller="Home" method="post">
+            <form asp-action="CreateDish" asp-controller="Home" method="post">
                 <div class="form-group">
                     <label asp-for="ChefName"></label>
                     <input type="text" asp-for="ChefName" id="" class="form-control">

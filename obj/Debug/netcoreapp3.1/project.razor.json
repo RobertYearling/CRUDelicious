@@ -14417,16 +14417,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/Views/Home/Item.cshtml",
-      "TargetPath": "Views\\Home\\Item.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/Views/Home/Host.cshtml",
-      "TargetPath": "Views\\Home\\Host.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "/Users/creative/Documents/Development/coding_dojo/c_sharp_stack/CRUDelicious/Views/Home/New.cshtml",
       "TargetPath": "Views\\Home\\New.cshtml",
       "FileKind": "mvc"
